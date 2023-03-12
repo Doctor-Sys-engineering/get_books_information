@@ -7,4 +7,4 @@ class CwarlBooksInformationSpider(scrapy.Spider):
     start_urls = ["http://books.toscrape.com/"]
 
     def parse(self, response):
-        pass
+        print("hello")
